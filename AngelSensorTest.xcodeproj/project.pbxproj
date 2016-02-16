@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CDB6C491C73926E00E15C0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB6C481C73926E00E15C0D /* main.m */; };
+		4CDB6C4C1C73926E00E15C0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB6C4B1C73926E00E15C0D /* AppDelegate.m */; };
+		4CDB6C4F1C73926E00E15C0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB6C4E1C73926E00E15C0D /* ViewController.m */; };
+		4CDB6C521C73926E00E15C0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDB6C501C73926E00E15C0D /* Main.storyboard */; };
+		4CDB6C541C73926E00E15C0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CDB6C531C73926E00E15C0D /* Assets.xcassets */; };
+		4CDB6C571C73926E00E15C0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDB6C551C73926E00E15C0D /* LaunchScreen.storyboard */; };
+		4CDB6C621C73926E00E15C0D /* AngelSensorTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB6C611C73926E00E15C0D /* AngelSensorTestTests.m */; };
+		4CDB6C6D1C73926E00E15C0D /* AngelSensorTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB6C6C1C73926E00E15C0D /* AngelSensorTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CDB6C5E1C73926E00E15C0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CDB6C3C1C73926E00E15C0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDB6C431C73926E00E15C0D;
+			remoteInfo = AngelSensorTest;
+		};
+		4CDB6C691C73926E00E15C0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CDB6C3C1C73926E00E15C0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDB6C431C73926E00E15C0D;
+			remoteInfo = AngelSensorTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CDB6C441C73926E00E15C0D /* AngelSensorTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngelSensorTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDB6C481C73926E00E15C0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CDB6C4A1C73926E00E15C0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CDB6C4B1C73926E00E15C0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CDB6C4D1C73926E00E15C0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CDB6C4E1C73926E00E15C0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CDB6C511C73926E00E15C0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CDB6C531C73926E00E15C0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CDB6C561C73926E00E15C0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CDB6C581C73926E00E15C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDB6C5D1C73926E00E15C0D /* AngelSensorTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngelSensorTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDB6C611C73926E00E15C0D /* AngelSensorTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AngelSensorTestTests.m; sourceTree = "<group>"; };
+		4CDB6C631C73926E00E15C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDB6C681C73926E00E15C0D /* AngelSensorTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngelSensorTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDB6C6C1C73926E00E15C0D /* AngelSensorTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AngelSensorTestUITests.m; sourceTree = "<group>"; };
+		4CDB6C6E1C73926E00E15C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CDB6C411C73926E00E15C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDB6C5A1C73926E00E15C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDB6C651C73926E00E15C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CDB6C3B1C73926E00E15C0D = {
+			isa = PBXGroup;
+			children = (
+				4CDB6C461C73926E00E15C0D /* AngelSensorTest */,
+				4CDB6C601C73926E00E15C0D /* AngelSensorTestTests */,
+				4CDB6C6B1C73926E00E15C0D /* AngelSensorTestUITests */,
+				4CDB6C451C73926E00E15C0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CDB6C451C73926E00E15C0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CDB6C441C73926E00E15C0D /* AngelSensorTest.app */,
+				4CDB6C5D1C73926E00E15C0D /* AngelSensorTestTests.xctest */,
+				4CDB6C681C73926E00E15C0D /* AngelSensorTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CDB6C461C73926E00E15C0D /* AngelSensorTest */ = {
+			isa = PBXGroup;
+			children = (
+				4CDB6C4A1C73926E00E15C0D /* AppDelegate.h */,
+				4CDB6C4B1C73926E00E15C0D /* AppDelegate.m */,
+				4CDB6C4D1C73926E00E15C0D /* ViewController.h */,
+				4CDB6C4E1C73926E00E15C0D /* ViewController.m */,
+				4CDB6C501C73926E00E15C0D /* Main.storyboard */,
+				4CDB6C531C73926E00E15C0D /* Assets.xcassets */,
+				4CDB6C551C73926E00E15C0D /* LaunchScreen.storyboard */,
+				4CDB6C581C73926E00E15C0D /* Info.plist */,
+				4CDB6C471C73926E00E15C0D /* Supporting Files */,
+			);
+			path = AngelSensorTest;
+			sourceTree = "<group>";
+		};
+		4CDB6C471C73926E00E15C0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CDB6C481C73926E00E15C0D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CDB6C601C73926E00E15C0D /* AngelSensorTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CDB6C611C73926E00E15C0D /* AngelSensorTestTests.m */,
+				4CDB6C631C73926E00E15C0D /* Info.plist */,
+			);
+			path = AngelSensorTestTests;
+			sourceTree = "<group>";
+		};
+		4CDB6C6B1C73926E00E15C0D /* AngelSensorTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CDB6C6C1C73926E00E15C0D /* AngelSensorTestUITests.m */,
+				4CDB6C6E1C73926E00E15C0D /* Info.plist */,
+			);
+			path = AngelSensorTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CDB6C431C73926E00E15C0D /* AngelSensorTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDB6C711C73926E00E15C0D /* Build configuration list for PBXNativeTarget "AngelSensorTest" */;
+			buildPhases = (
+				4CDB6C401C73926E00E15C0D /* Sources */,
+				4CDB6C411C73926E00E15C0D /* Frameworks */,
+				4CDB6C421C73926E00E15C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AngelSensorTest;
+			productName = AngelSensorTest;
+			productReference = 4CDB6C441C73926E00E15C0D /* AngelSensorTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CDB6C5C1C73926E00E15C0D /* AngelSensorTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDB6C741C73926E00E15C0D /* Build configuration list for PBXNativeTarget "AngelSensorTestTests" */;
+			buildPhases = (
+				4CDB6C591C73926E00E15C0D /* Sources */,
+				4CDB6C5A1C73926E00E15C0D /* Frameworks */,
+				4CDB6C5B1C73926E00E15C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CDB6C5F1C73926E00E15C0D /* PBXTargetDependency */,
+			);
+			name = AngelSensorTestTests;
+			productName = AngelSensorTestTests;
+			productReference = 4CDB6C5D1C73926E00E15C0D /* AngelSensorTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CDB6C671C73926E00E15C0D /* AngelSensorTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDB6C771C73926E00E15C0D /* Build configuration list for PBXNativeTarget "AngelSensorTestUITests" */;
+			buildPhases = (
+				4CDB6C641C73926E00E15C0D /* Sources */,
+				4CDB6C651C73926E00E15C0D /* Frameworks */,
+				4CDB6C661C73926E00E15C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CDB6C6A1C73926E00E15C0D /* PBXTargetDependency */,
+			);
+			name = AngelSensorTestUITests;
+			productName = AngelSensorTestUITests;
+			productReference = 4CDB6C681C73926E00E15C0D /* AngelSensorTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CDB6C3C1C73926E00E15C0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Michael Sanelli";
+				TargetAttributes = {
+					4CDB6C431C73926E00E15C0D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					4CDB6C5C1C73926E00E15C0D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4CDB6C431C73926E00E15C0D;
+					};
+					4CDB6C671C73926E00E15C0D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4CDB6C431C73926E00E15C0D;
+					};
+				};
+			};
+			buildConfigurationList = 4CDB6C3F1C73926E00E15C0D /* Build configuration list for PBXProject "AngelSensorTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CDB6C3B1C73926E00E15C0D;
+			productRefGroup = 4CDB6C451C73926E00E15C0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CDB6C431C73926E00E15C0D /* AngelSensorTest */,
+				4CDB6C5C1C73926E00E15C0D /* AngelSensorTestTests */,
+				4CDB6C671C73926E00E15C0D /* AngelSensorTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CDB6C421C73926E00E15C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDB6C571C73926E00E15C0D /* LaunchScreen.storyboard in Resources */,
+				4CDB6C541C73926E00E15C0D /* Assets.xcassets in Resources */,
+				4CDB6C521C73926E00E15C0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDB6C5B1C73926E00E15C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDB6C661C73926E00E15C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CDB6C401C73926E00E15C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDB6C4F1C73926E00E15C0D /* ViewController.m in Sources */,
+				4CDB6C4C1C73926E00E15C0D /* AppDelegate.m in Sources */,
+				4CDB6C491C73926E00E15C0D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDB6C591C73926E00E15C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDB6C621C73926E00E15C0D /* AngelSensorTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDB6C641C73926E00E15C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDB6C6D1C73926E00E15C0D /* AngelSensorTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CDB6C5F1C73926E00E15C0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CDB6C431C73926E00E15C0D /* AngelSensorTest */;
+			targetProxy = 4CDB6C5E1C73926E00E15C0D /* PBXContainerItemProxy */;
+		};
+		4CDB6C6A1C73926E00E15C0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CDB6C431C73926E00E15C0D /* AngelSensorTest */;
+			targetProxy = 4CDB6C691C73926E00E15C0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CDB6C501C73926E00E15C0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CDB6C511C73926E00E15C0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CDB6C551C73926E00E15C0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CDB6C561C73926E00E15C0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CDB6C6F1C73926E00E15C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CDB6C701C73926E00E15C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CDB6C721C73926E00E15C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AngelSensorTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.biobeats.AngelSensorTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CDB6C731C73926E00E15C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AngelSensorTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.biobeats.AngelSensorTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CDB6C751C73926E00E15C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AngelSensorTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.biobeats.AngelSensorTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngelSensorTest.app/AngelSensorTest";
+			};
+			name = Debug;
+		};
+		4CDB6C761C73926E00E15C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AngelSensorTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.biobeats.AngelSensorTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngelSensorTest.app/AngelSensorTest";
+			};
+			name = Release;
+		};
+		4CDB6C781C73926E00E15C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AngelSensorTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.biobeats.AngelSensorTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AngelSensorTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4CDB6C791C73926E00E15C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AngelSensorTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.biobeats.AngelSensorTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AngelSensorTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CDB6C3F1C73926E00E15C0D /* Build configuration list for PBXProject "AngelSensorTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDB6C6F1C73926E00E15C0D /* Debug */,
+				4CDB6C701C73926E00E15C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CDB6C711C73926E00E15C0D /* Build configuration list for PBXNativeTarget "AngelSensorTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDB6C721C73926E00E15C0D /* Debug */,
+				4CDB6C731C73926E00E15C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CDB6C741C73926E00E15C0D /* Build configuration list for PBXNativeTarget "AngelSensorTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDB6C751C73926E00E15C0D /* Debug */,
+				4CDB6C761C73926E00E15C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CDB6C771C73926E00E15C0D /* Build configuration list for PBXNativeTarget "AngelSensorTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDB6C781C73926E00E15C0D /* Debug */,
+				4CDB6C791C73926E00E15C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CDB6C3C1C73926E00E15C0D /* Project object */;
+}
