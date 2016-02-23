@@ -15,6 +15,7 @@
 		4CDB6C571C73926E00E15C0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDB6C551C73926E00E15C0D /* LaunchScreen.storyboard */; };
 		4CDB6C621C73926E00E15C0D /* AngelSensorTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB6C611C73926E00E15C0D /* AngelSensorTestTests.m */; };
 		4CDB6C6D1C73926E00E15C0D /* AngelSensorTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB6C6C1C73926E00E15C0D /* AngelSensorTestUITests.m */; };
+		4CDB6C7B1C73927E00E15C0D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDB6C7A1C73927E00E15C0D /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4CDB6C681C73926E00E15C0D /* AngelSensorTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngelSensorTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDB6C6C1C73926E00E15C0D /* AngelSensorTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AngelSensorTestUITests.m; sourceTree = "<group>"; };
 		4CDB6C6E1C73926E00E15C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDB6C7A1C73927E00E15C0D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CDB6C7B1C73927E00E15C0D /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		4CDB6C3B1C73926E00E15C0D = {
 			isa = PBXGroup;
 			children = (
+				4CDB6C7A1C73927E00E15C0D /* CoreBluetooth.framework */,
 				4CDB6C461C73926E00E15C0D /* AngelSensorTest */,
 				4CDB6C601C73926E00E15C0D /* AngelSensorTestTests */,
 				4CDB6C6B1C73926E00E15C0D /* AngelSensorTestUITests */,
